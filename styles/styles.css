@@ -1,0 +1,82 @@
+.header{
+    background-image: url(../assets/Hero-bg.png);}
+.banner{
+    justify-content: center;
+    align-items: center;
+    left: auto;
+    right: auto;
+/* Auto layout */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0p
+}
+.btn{
+    border-radius: 8px;
+    background: rgb(13, 19, 33);
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.body{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0px;
+}
+.body-container{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 50px 50px 50px;
+}
+.body-text{
+    text-align: left;
+}
+.btn-2{
+    box-sizing: border-box;
+    border: 1px solid rgb(13, 19, 33);
+    opacity: 0.7;
+
+}
+.third-heading{
+    text-align: center;
+    font-size: large;
+}
+.third-heading-text{
+    text-align: center;
+}
+.container-2{
+    display: flex;
+    justify-content: left;
+    justify-content: space-between;
+}
+.contain-block-1{
+    text-align: left;
+    border-radius: 16px;
+    background: rgba(255, 76, 30, 0.05);
+    height: 150px;
+    width: 150px;
+}
+.contain-block-2{
+    border-radius: 16px;
+    background: rgba(0, 76, 232, 0.05);
+    height: 150px;
+    width: 150px;
+}
+.contain-block-3{
+    border-radius: 16px;
+    background: rgba(255, 223, 0, 0.05);
+    height: 150px;
+    width: 150px;
+
+}
+.footer{
+    background-image: url(../assets/handshake.jpg);
+
+}
+.footer-header{
+    align-items: center;
+}
